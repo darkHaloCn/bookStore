@@ -1,0 +1,32 @@
+body{
+    background: rgb(51, 62, 81);
+}
+.header{
+    height:80px;
+    background:url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fphoto.orsoon.com%2F180808%2FEPS-180808_175%2Fi7Az97wJfE_small.jpg&refer=http%3A%2F%2Fphoto.orsoon.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1665214972&t=fee7c4aad8869dcd02d2ce211e588d63');
+    background-repeat: no-repeat;
+    background-clip: cover;
+    background-position-x: 50%;
+    background-position-y: -214px;
+}
+.container{
+    height: calc(100vh - 80px);
+    background-color: #eee;
+    
+}
+.artcle{
+    width: 500px;
+}
+.layui-container{
+    width: 100%;
+    position: relative;
+}
+
+.font-search{
+    position: absolute;
+    top: 5px;
+    left: calc(100% - 30px);
+}
+.font-search:hover{
+    cursor: pointer;
+}
